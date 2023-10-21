@@ -4,7 +4,7 @@ import composants.Boisson;
 
 public class Caramel extends Decorator{
 
-    // on crée un chocolat pour décorer une boisson
+    // on crée un caramel pour décorer une boisson
     public Caramel(Boisson boisson) {
         super(boisson);
     }
