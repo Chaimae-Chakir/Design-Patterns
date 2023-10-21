@@ -1,3 +1,5 @@
+package org.example;
+
 public class Context {
     private Strategy strategy;
 

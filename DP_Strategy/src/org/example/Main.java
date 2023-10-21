@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package org.example;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -6,13 +7,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception {
         Context context=new Context();
-        /*context.setStrategy(new StrategyImpl3());
+        /*context.setStrategy(new org.example.StrategyImpl3());
         context.effectuerOperation();
-        context.setStrategy(new StrategyImpl2());
+        context.setStrategy(new org.example.StrategyImpl2());
         context.effectuerOperation();
-        context.setStrategy(new StrategyImpl1());
+        context.setStrategy(new org.example.StrategyImpl1());
         context.effectuerOperation();
-        context.setStrategy(new DefaultStrategyImpl());
+        context.setStrategy(new org.example.DefaultStrategyImpl());
         context.effectuerOperation();*/
         Scanner scanner=new Scanner(System.in);
         Strategy strategy;
