@@ -1,7 +1,7 @@
 <h2>Design Pattern "Decorator"</h2>
 <p>Le design pattern Decorator (ou le patron de conception Décorateur en français) est un modèle de conception structurel qui permet d'ajouter des fonctionnalités supplémentaires à des objets existants de manière flexible et dynamique, sans altérer leur structure de base. Ce modèle est couramment utilisé pour étendre les fonctionnalités des classes existantes sans avoir à créer des sous-classes excessives.
 
-Voici un résumé des principaux concepts du design pattern Décorateur en français :
+Voici un résumé des principaux concepts du design pattern Décorateur :
 
 Composant (Component) : C'est l'interface ou la classe de base qui définit le comportement de base de l'objet que vous souhaitez décorer. Les composants concrets implémentent cette interface.
 
