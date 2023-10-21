@@ -9,7 +9,7 @@ Stratégie (Strategy) : C'est une interface ou une classe abstraite qui définit
 
 Implémentations de Stratégie (Concrete Strategies) : Ce sont les classes concrètes qui implémentent l'interface ou la classe abstraite de stratégie. Chaque classe représente un algorithme spécifique.
 
-Lors de l'utilisation du pattern Strategy, le client peut choisir l'algorithme souhaité et l'associer dynamiquement avec le contexte. Cela permet au contexte de varier son comportement en fonction de l'algorithme sélectionné, sans modifier son code sourc</p>
+Lors de l'utilisation du pattern Strategy, le client peut choisir l'algorithme souhaité et l'associer dynamiquement avec le contexte. Cela permet au contexte de varier son comportement en fonction de l'algorithme sélectionné, sans modifier son code source. </p>
 <h3>Structure du projet</h3>
 <img src="Capture1.PNG"/>
 <h3>Diagramme de classe</h3>
