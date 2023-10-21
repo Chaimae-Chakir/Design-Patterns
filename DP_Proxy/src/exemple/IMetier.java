@@ -1,6 +1,6 @@
 package exemple;
 
-public interface IMetier {
+/*public interface IMetier {
    void process();
 
-}
+}*/

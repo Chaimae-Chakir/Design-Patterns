@@ -1,5 +1,5 @@
 package exemple;
-@Service
+/*@Service
 public class IMetierImpl implements IMetier {
     @Override
     @Transactional
@@ -7,4 +7,4 @@ public class IMetierImpl implements IMetier {
     public void process() {
         System.out.println("Traitement...");
     }
-}
+}*/

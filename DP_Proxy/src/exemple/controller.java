@@ -1,6 +1,6 @@
 package exemple;
 
-public class controller {
+/*public class controller {
     @Autowired
     private IMetier metier=new TransactionalProxy();
 
@@ -9,4 +9,4 @@ public class controller {
         return "index";
     }
 
-}
+}*/

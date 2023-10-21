@@ -1,6 +1,6 @@
 package exemple;
 
-public class TransactionalProxy implements IMetier {
+/*public class TransactionalProxy implements IMetier {
     private IMetier metier;
     @Override
     public void process() {
@@ -9,4 +9,4 @@ public class TransactionalProxy implements IMetier {
         metier.process();
         System.out.println("Rollback ou commit");
     }
-}
+}*/
