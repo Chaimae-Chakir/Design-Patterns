@@ -9,7 +9,7 @@ public class Test {
         d1.addComponent(new File("Strategy"));
         d1.addComponent(new File("Observer"));
         d2.addComponent(new File("Decorateur"));
-        d2.addComponent(new File("Composie"));
+        d2.addComponent(new File("Composite"));
         d2.addComponent(new File("Adapter"));
         d2.addComponent(new File("Singleton"));
         d3.addComponent(new File("Builder"));
