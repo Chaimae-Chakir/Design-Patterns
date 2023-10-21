@@ -5,6 +5,7 @@ public class SuperVP implements VGA, HDMI {
     public void view(byte[] data) {
         System.out.println("...... Super VP HDMI .......");
         String msg=new String(data);
+        System.out.println(msg);
         System.out.println("...... Super VP HDMI ......");
     }
 

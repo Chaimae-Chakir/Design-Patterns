@@ -24,6 +24,5 @@ public class Main {
         //avec adapter en utilisant l'heritage
         uniteCentre.setVga(new HdmiVgaAdapterH());
         uniteCentre.print("hillooww Adapter Heritage");
-
     }
 }
