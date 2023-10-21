@@ -1,1 +1,1 @@
-<h3>Design Patterns</h3>
+<h1>Design Patterns</h1>
