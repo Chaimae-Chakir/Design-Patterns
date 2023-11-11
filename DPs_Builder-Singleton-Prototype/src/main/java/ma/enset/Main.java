@@ -51,7 +51,7 @@ public class Main {
         System.out.println("newAccount: " + bankAccountJsonSerializer.toJson(newAccount));
         System.out.println("newAccount2: " + bankAccountJsonSerializer.toJson(newAccount2));
 
-        BankAccount account = Director.accountBuilder()
+        BankAccount account = BankDirector.accountBuilder()
                 .accountId(1L)
                 .balance(1000)
                 .currency("USD")

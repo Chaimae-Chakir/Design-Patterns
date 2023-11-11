@@ -4,7 +4,7 @@ package ma.enset.repository;
 import ma.enset.enums.AccountStatus;
 import ma.enset.enums.AccountType;
 import ma.enset.models.BankAccount;
-import ma.enset.models.Director;
+import ma.enset.models.BankDirector;
 
 import java.util.HashMap;
 import java.util.List;
@@ -75,7 +75,7 @@ public class AccountRepositoryImpl implements AccountRepository {
     public void populateData() {
         for (int i = 0; i < 10; i++) {
 
-            BankAccount account = Director.accountBuilder()
+            BankAccount account = BankDirector.accountBuilder()
                     .balance(1000 + Math.random() * 1000)
                     .currency("USD")
                     .type(Math.random() > 0.5 ? AccountType.SAVINGS_ACCOUNT : AccountType.CURRENT_ACCOUNT)
