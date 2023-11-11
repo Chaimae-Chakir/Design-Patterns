@@ -85,11 +85,18 @@ public class BankAccount implements Cloneable {
                 '}';
     }
 
+    /*public static AccountBuilder builder(){
+        return new AccountBuilder();
+    }*/
+
+    //classe interne--> Pattern Builder
     public static class AccountBuilder {
         private BankAccount bankAccount = new BankAccount();
 
+        //construire une attribut accountId
         public AccountBuilder accountId(Long accountId) {
             bankAccount.accountId = accountId;
+            //doit retouner le meme objet de AccountBuilder
             return this;
         }
 
@@ -115,6 +122,7 @@ public class BankAccount implements Cloneable {
             return this;
         }
 
+        //retourner l'objet construit
         public BankAccount build() {
             return this.bankAccount;
         }

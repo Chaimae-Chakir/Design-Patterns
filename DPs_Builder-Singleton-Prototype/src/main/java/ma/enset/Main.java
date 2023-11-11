@@ -1,6 +1,5 @@
 package ma.enset;
 
-
 import ma.enset.enums.AccountStatus;
 import ma.enset.enums.AccountType;
 import ma.enset.models.*;
@@ -47,7 +46,7 @@ public class Main {
 
         System.out.println("using prototype pattern to create a new account");
         BankAccount newAccount = accountRepository.findById(1L).get();
-        newAccount.setCustomer(new Customer(1L, "douhi3"));
+        newAccount.setCustomer(new Customer(1L, "chakir3"));
         BankAccount newAccount2 = newAccount.clone();
         System.out.println("newAccount: " + bankAccountJsonSerializer.toJson(newAccount));
         System.out.println("newAccount2: " + bankAccountJsonSerializer.toJson(newAccount2));
@@ -60,16 +59,23 @@ public class Main {
                 .status(AccountStatus.SUSPENDED)
                 .build();
 
-        account.setCustomer(new Customer(1L, "douhi"));
+        account.setCustomer(new Customer(1L, "chakir"));
 
         BankAccount cloned = account.clone();
         System.out.println("account: " + account);
         System.out.println("cloned: " + cloned);
 
-        account.getCustomer().setName("douhi2");
+        account.getCustomer().setName("chakir2");
         System.out.println("account: " + account);
         System.out.println("cloned: " + cloned);
 
+        /*BankAccount bankAccount=BankAccount.builder()
+            .accountId(1L);
+            .currency("MAD")
+            .type(AccountType.SAVING_ACCOUNT)
+            .balance(700000)
+            .build();
+            */
 
     }
 }

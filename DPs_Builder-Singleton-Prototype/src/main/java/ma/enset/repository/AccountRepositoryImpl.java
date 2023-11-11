@@ -74,6 +74,7 @@ public class AccountRepositoryImpl implements AccountRepository {
 
     public void populateData() {
         for (int i = 0; i < 10; i++) {
+
             BankAccount account = BankDirector.accountBuilder()
                     .balance(1000 + Math.random() * 1000)
                     .currency("USD")
