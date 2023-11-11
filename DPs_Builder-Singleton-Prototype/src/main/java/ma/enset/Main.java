@@ -54,6 +54,7 @@ public class Main {
         BankAccount account = BankDirector.accountBuilder()
                 .accountId(1L)
                 .balance(1000)
+
                 .currency("USD")
                 .type(AccountType.CURRENT_ACCOUNT)
                 .status(AccountStatus.SUSPENDED)
