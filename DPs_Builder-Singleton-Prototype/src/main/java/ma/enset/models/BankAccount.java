@@ -85,10 +85,6 @@ public class BankAccount implements Cloneable {
                 '}';
     }
 
-    /*public static AccountBuilder builder(){
-        return new AccountBuilder();
-    }*/
-
     //classe interne--> Pattern Builder
     public static class AccountBuilder {
         private BankAccount bankAccount = new BankAccount();
