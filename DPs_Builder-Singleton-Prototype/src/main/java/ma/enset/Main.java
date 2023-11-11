@@ -51,7 +51,7 @@ public class Main {
         System.out.println("newAccount: " + bankAccountJsonSerializer.toJson(newAccount));
         System.out.println("newAccount2: " + bankAccountJsonSerializer.toJson(newAccount2));
 
-        BankAccount account = BankDirector.accountBuilder()
+        BankAccount account = Director.accountBuilder()
                 .accountId(1L)
                 .balance(1000)
                 .currency("USD")
@@ -68,14 +68,6 @@ public class Main {
         account.getCustomer().setName("chakir2");
         System.out.println("account: " + account);
         System.out.println("cloned: " + cloned);
-
-        /*BankAccount bankAccount=BankAccount.builder()
-            .accountId(1L);
-            .currency("MAD")
-            .type(AccountType.SAVING_ACCOUNT)
-            .balance(700000)
-            .build();
-            */
 
     }
 }

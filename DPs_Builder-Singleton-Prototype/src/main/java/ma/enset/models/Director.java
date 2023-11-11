@@ -1,6 +1,6 @@
 package ma.enset.models;
 
-public class BankDirector {
+public class Director {
     public static BankAccount.AccountBuilder accountBuilder() {
         return new BankAccount.AccountBuilder();
     }
